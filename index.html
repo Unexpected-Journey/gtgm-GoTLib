@@ -9,22 +9,25 @@
 <body>
 	<div class="wrap">
 		<header class="header">
-			<h1 class="h1Head">GoTLib - Вся серия романов "Песнь Льда и Огня" у нас.</h1>
+			<a class="glavn" href="index.html"><h1 class="h1Head">GoTLib - Вся серия романов "Песнь Льда и Огня" у нас.</h1></a>
 			<!--<h2 class="h2Head">Уже доступно для всех пользователей.</h2> -->
 			<h2 class="h2Head">Поиск книг:</h2>
 			<div class="forma">
 				<input id="name" name="name" list="nameOfBooks" placeholder="Название книги" autocomplete="on" />
 				<datalist id="nameOfBooks">
-					<option value="Игра Престолов"></option>
+					<!--<option value="Игра Престолов"></option>
 					<option value="Буря Мечей"></option>
 					<option value="Буря Мечей"></option>
 					<option value="Пир стервятников"></option>
 					<option value="Танец с драконами"></option>
 					<option value="Ветра зимы"></option>
-					<option value="Мечта о весне"></option>
+					<option value="Мечта о весне"></option>-->
 				</datalist>
-				<form action="https://www.google.com.ua/?gfe_rd=cr&ei=G-UsWI_jJ4337gS_rq34Cg" method="get"> 
-					<input type="submit" value="Перейти">
+				<form action="https://www.ozon.ru/context/detail/id/26429564/" method="get"> 
+					<input id="subm" type="submit" value="Перейти">
+				</form>
+				<form action="contest.html" method="get"> 
+					<input id="contest" type="submit" value="Внимание конкурс!">
 				</form>
 
 			</div>	
@@ -86,7 +89,7 @@
 		</footer>
 	</div>
 </body>
-<!--<script>
+<script>
 	var fakeServerResponse = ['Игра Престолов', 'Битва Королей', 'Буря Мечей', 'Пир стервятников', 'Танец с драконами', 'Ветра зимы ', 'Мечта о весне'];
 	var datalist = document.getElementById('nameOfBooks');
 
@@ -107,6 +110,6 @@
         datalist.appendChild(option);
     }
 });
-</script>-->
+</script>
 
 </html>

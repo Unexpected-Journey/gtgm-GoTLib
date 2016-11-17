@@ -41,30 +41,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/*Start*/
+
 body{
   background-color: #141414;
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
 }
-.wrap{
 
-}
-.h1Head{
-  padding-top: 20px;
-  text-align: center;
-  margin: 0 auto 10px;
- /* font-size:20px;*/
-
-}
-.h2Head{
- 
-  text-align:center;
-  padding-top: 240px;
-  padding-left:0;
- 
-
-}
 .header{
   display:block;
 
@@ -74,17 +57,28 @@ body{
   height: 373px;
   margin: 0 auto;
 }
-.forma{
-  padding: 5px 0 0 595px;
-}
-#subm{
-  margin: 0 0 0 50px;
+.h1Head{
+  padding-top: 20px;
+  text-align: center;
+  margin: 0 auto 10px;
+ /* font-size:20px;*/
 
 }
-#contest{
-  margin: 5px 0 0 450px;
+.h1Head1{
+  padding-top: 250px;
+  text-align: center;
+  margin: 0 auto 10px;
+ /* font-size:20px;*/
+
 }
-.glavn:hover{
+
+.h2Head{
+ 
+  text-align:center;
+  padding-top: 10px;
+  padding-left:0;
+  }
+  .glavn:hover{
   color: #fff;
 }
 
@@ -95,40 +89,16 @@ body{
 .glavn:visited{
   color: #fff;
 }
+.privet{
+  text-align:center;
+  margin: 15px auto 15px;
+}
 .h2First{
   text-align: center;
-  border-bottom: 1px solid #fff;
-  width: 90px;
-  margin: 15px auto;
+  padding-bottom: 10px;
 }
-.ok{
- text-align: center;
-  border-bottom: 1px solid #fff;
-  width: 90px;
-  margin: 15px auto;
-}
-
-.message{
-  display: block;
-  font: 15px/125% Arial;
-  color:#0e9e3e;
-  text-align: center;
-  margin: 15px auto;
-}
-.message:hover{
-cursor:pointer;
-}
-.pFirstOne, .pFirstTwo, .pFirstThree{
-  display: block;
-  width: 900px;
-  margin: 20px auto;
-  text-align: center;
-}
-
-
-.foot{
-  display:block;
-  text-align: center;
-  font-size: 15px;
-  margin: 7px auto;
+.che{
+  width: 400px;
+  margin-left: 45%;
+  margin-right: 35%;
 }
