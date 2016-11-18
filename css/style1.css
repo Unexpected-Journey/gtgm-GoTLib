@@ -102,3 +102,12 @@ body{
   margin-left: 45%;
   margin-right: 35%;
 }
+.foot{
+  display:block;
+  text-align: center;
+  font-size: 15px;
+  margin: 7px auto;
+}
+.ult{
+  margin-top: 15px;
+}
