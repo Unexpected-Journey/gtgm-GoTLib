@@ -74,15 +74,19 @@ body{
   height: 373px;
   margin: 0 auto;
 }
-.forma{
+/*.forma{
   padding: 5px 0 0 595px;
+}*/
+.forma{
+  display: block;
+  margin: 5px 43.5%;
 }
 #subm{
   margin: 0 0 0 50px;
 
 }
 #contest{
-  margin: 5px 0 0 450px;
+  margin: 0 0 0 265%;
 }
 .glavn:hover{
   color: #fff;
