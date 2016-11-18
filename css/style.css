@@ -77,9 +77,13 @@ body{
 /*.forma{
   padding: 5px 0 0 595px;
 }*/
+/*.formaTop{
+  margin: 0 auto;
+}*/
 .forma{
   display: block;
-  margin: 5px 43.5%;
+  width:170px;
+  margin: 5px auto;
 }
 #subm{
   margin: 0 0 0 50px;
